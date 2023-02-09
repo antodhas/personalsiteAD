@@ -1,0 +1,49 @@
+.navbar{
+    background-color: rgba(0, 0, 0, 0.803);
+}
+.sub1{
+
+    background-image: linear-gradient(to right,rgba(178, 176, 178, 0.349), rgba(255, 226, 226, 0.416));
+}
+.detail span{
+    display: inline-block;
+    font-size: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    animation: flip 3s infinite;
+  animation-delay: calc(.3s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+.nameLet{
+  color:rgb(64, 117, 214) ;
+}
+
+
+
+
+.define {
+
+  font-size: 150%;
+  font-weight: 300;
+  font-family:serif;
+ 
+}
+@media only screen and (max-width: 572px) {
+  .mail {
+    display: none;
+  }
+}
+
+body{
+  scroll-behavior: smooth;
+}
+
+a:hover{
+
+  background-color: orangered;
+
+}

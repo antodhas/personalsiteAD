@@ -1,0 +1,44 @@
+
+  .labelopen{
+    font-family:fantasy;
+    font-size: 175%;
+  }
+
+  .animated-progress span {
+  
+    display: block;
+    width: 0;
+    color: black;
+    line-height: 10px;
+   
+    text-align: end;
+    border-radius: 5%;
+   font-family: Arial, Helvetica, sans-serif;
+  font-size: 75%;
+}
+
+
+.progress-red span {
+    background-color: rgba(247, 81, 35, 0.81);
+    width: 95%;
+
+}
+
+.progress-green span {
+    background-color: #1cbe5ac9;
+    width: 80%;
+}
+
+.progress-blue span {
+    background-color: #8067f0c4;
+    width: 70%;
+}
+.progress-yellow span {
+
+    background-color: rgba(255, 255, 0, 0.696);
+    width: 60%;
+}
+.progress-black span {
+    background-color: rgba(0, 0, 0, 0.74);
+    width: 60%;
+}

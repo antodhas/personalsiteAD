@@ -1,0 +1,29 @@
+.col1,.col2,.col3,.col4{
+    border: 3px solid none;
+    border-radius: 5%;
+    background-color: rgba(222, 230, 228, 0.247);
+
+   
+}
+
+.col1:hover{
+    transform:scale(0.8);
+    background-color: white;
+    border: 3px solid red;
+}
+.col2:hover{
+    transform:scale(0.8);
+    background-color: white;
+    border: 3px solid red;
+}
+.col3:hover{
+    transform:scale(0.8);
+    background-color: white;
+    border: 3px solid red;
+}
+.col4:hover{
+    transform:scale(0.8);
+    background-color: white;
+    border: 3px solid red;
+}
+
